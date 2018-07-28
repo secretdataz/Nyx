@@ -6,7 +6,7 @@
 
     <groupId>app.jittapan</groupId>
     <artifactId>nyx</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1.0-SNAPSHOT</version>
     <description>Sleep voting plugin</description>
 
     <properties>
