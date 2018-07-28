@@ -1,0 +1,11 @@
+name: ${project.name}
+main: app.jittapan.nyx.Nyx
+version: ${project.version}
+description: ${project.description}
+author: secretdataz
+website: https://github.com/secretdataz/nyx
+permissions:
+  nyx.voteright:
+    description: Count users with this permission in the sleep vote.
+    default: true
+api-version: 1.13
