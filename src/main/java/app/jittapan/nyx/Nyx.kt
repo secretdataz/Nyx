@@ -93,7 +93,7 @@ class Nyx: JavaPlugin(), Listener {
                         broadcastToWorld(world, prepareMessage(config.getString("morningMessage")))
                         Bukkit.getScheduler().scheduleSyncDelayedTask(this, {
                             suppressLeave[world.uid] = false
-                        }, 20L)
+                        }, 100L)
                     }
                     transitions[world.uid] = null
                 }, config.getLong("transitionTime"))
